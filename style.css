@@ -69,11 +69,19 @@ p {
 }
 
 .homebutton {
-    background-color: #67e7ae;
+    background-color: #660808e5;
     font-size: 20px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 18px;
+    border: 5px solid white;
+
+}
+
+.homebutton a {
+    text-decoration: none;
+    color: white;
 }
 
 .center {
