@@ -10,6 +10,9 @@
     background-image: url(images/background.jpg);
     background-position: center;
     background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -26,11 +29,24 @@
 .menu-icon {
     width: 30px;
     cursor: pointer;
+    margin-left: 40px;
 }
 
 nav{
     flex: 1;
     text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(123, 33, 131);
+    font-size: 20px;
 }
 
 h3 {
@@ -60,24 +76,4 @@ p {
 h1 {
     color: red;
     text-align: center;
-}
-
-a:link {
-    color: rgb(35, 107, 107);
-}
-
-a:visited {
-    color: red;
-}
-
-a:hover {
-    color: rgb(18, 56, 56);
-}
-
-a:focus {
-    color: green;
-}
-
-a:active {
-    color: #0e472e;
 }
