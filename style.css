@@ -5,5 +5,36 @@ div {
 }
 
 p {
+    color: rgb(28, 42, 240);
+}
+
+.homebutton {
+    background-color: #67e7ae;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
     color: red;
+    text-align: center;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+a:link {
+    color: aqua;
 }
