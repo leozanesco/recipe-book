@@ -1,3 +1,7 @@
+html, body {
+    background-color: #56216b73;
+}
+
 div {
     color: white;
     background-color: black;
@@ -27,14 +31,22 @@ h1 {
     text-align: center;
 }
 
+a:link {
+    color: rgb(35, 107, 107);
+}
+
 a:visited {
     color: red;
 }
 
 a:hover {
-    color: aquamarine;
+    color: rgb(18, 56, 56);
 }
 
-a:link {
-    color: aqua;
+a:focus {
+    color: green;
+}
+
+a:active {
+    color: #0e472e;
 }
