@@ -53,7 +53,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: rgb(123, 33, 131);
+    color: #720909;
     font-size: 20px;
     font-weight: bolder;
 }
@@ -79,7 +79,8 @@ p {
 
 }
 
-.homebutton a {
+.homebutton a,
+.card a {
     text-decoration: none;
     color: white;
 }
@@ -94,4 +95,48 @@ h1 {
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-size: 70px;
+}
+
+.smaller {
+    font-size: 20px;
+}
+
+.homepic {
+    border-radius: 80px;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: white;
+    background-color: #660808e5;
+    margin: 10px 15px;
+    border: 5px solid white;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.card1 {
+    background-image: url("https://static.clubedaanamariabraga.com.br/wp-content/uploads/2016/11/brigadeiro-1024x576.jpg");
+}
+.card2 {
+    background-image: url("https://www.eggs.ca/assets/RecipeThumbs/Ramen-Topped-with-Ramed-Eggs.jpg");
+}
+.card3 {
+    background-image: url("https://images.immediate.co.uk/production/volatile/sites/30/2020/08/classic-lasange-4a66137.jpg?quality=90&webp=true&resize=300,272");
+}
+
+.menurubin {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+    font-family: "Amatic SC", cursive;
+    font-size: 35px;
+    min-height: 90px;
 }
