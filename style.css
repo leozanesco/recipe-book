@@ -16,11 +16,14 @@
 .container {
     width: 100%;
     height: 100vh;
+    padding: 0% 8%;
+    box-sizing: border-box;
+}
+
+html {
     background-image: url(images/background.jpg);
     background-position: center;
     background-size: cover;
-    padding: 0% 8%;
-    box-sizing: border-box;
 }
 
 .navbar {
@@ -31,13 +34,26 @@
 
 .logo {
     width: 60px;
-    cursor: pointer;
+    cursor: crosshair;
+    transition: transform 1s;
+}
+
+.logo:hover {
+    transform: scale(1.4,1.4);
 }
 
 .menu-icon {
     width: 30px;
     cursor: pointer;
     margin-left: 40px;
+}
+
+.menulogo {
+    transition: transform 0.5s;
+}
+
+.menulogo:hover {
+    transform: scale(1.1, 1.1);
 }
 
 nav{
@@ -66,23 +82,32 @@ h3 {
 }
 
 p {
-    color: rgb(28, 42, 240);
+    margin: 5px auto;
+    color: rgb(34, 48, 241);
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
 }
 
 .homebutton {
     background-color: #660808e5;
-    font-size: 20px;
+    font-size: 15px;
     display: block;
-    margin: 5px auto;
-    padding: 10px;
+    margin: 15px auto;
+    padding: 6px;
     border-radius: 18px;
     border: 5px solid white;
+    transition: transform 0.5s;
+}
 
+.homebutton:hover {
+    transform: scale(1.1,1.1);
 }
 
 .homebutton a{
     text-decoration: none;
     color: white;
+    font-family: 'Amatic  SC', cursive;
 }
 
 .center {
@@ -116,7 +141,7 @@ h1 {
     cursor: pointer;
     color: rgb(255, 255, 255);
     background-color: #660808e5;
-    margin: 10px 20px;
+    margin: 20px 30px;
     border: 5px solid white;
     text-align: center;
     background-position: center;
@@ -153,4 +178,18 @@ h1 {
 
 a {
     text-decoration: none;
+}
+
+li {
+    margin: 5px auto;
+}
+
+.row {
+    display: flex;
+    height: 20%;
+    align-items: top;
+}
+
+.col {
+    flex-basis: 50%;
 }
