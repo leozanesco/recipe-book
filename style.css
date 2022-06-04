@@ -79,8 +79,7 @@ p {
 
 }
 
-.homebutton a,
-.card a {
+.homebutton a{
     text-decoration: none;
     color: white;
 }
@@ -113,13 +112,16 @@ h1 {
     padding: 10px;
     box-sizing: border-box;
     cursor: pointer;
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: #660808e5;
-    margin: 10px 15px;
+    margin: 10px 20px;
     border: 5px solid white;
     text-align: center;
     background-position: center;
     background-size: cover;
+    vertical-align: top;
+    -webkit-box-shadow: 9px 12px 12px 10px #000000; 
+    box-shadow: 9px 12px 12px 10px #000000;
 }
 
 .card1 {
@@ -139,4 +141,9 @@ h1 {
     font-family: "Amatic SC", cursive;
     font-size: 35px;
     min-height: 90px;
+    text-shadow: 3px 3px 2px #000000;
+}
+
+a {
+    text-decoration: none;
 }
