@@ -13,17 +13,23 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
+ol {
+    padding-bottom: 10%;
+}
+
 .container {
     width: 100%;
     height: 100vh;
     padding: 0% 8%;
     box-sizing: border-box;
+    
 }
 
 html {
     background-image: url(images/background.jpg);
     background-position: center;
     background-size: cover;
+    padding-bottom: 20px;
 }
 
 .navbar {
@@ -192,4 +198,5 @@ li {
 
 .col {
     flex-basis: 50%;
+    margin-bottom: 10%;
 }
